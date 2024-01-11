@@ -27,3 +27,38 @@ let convertNumberInToString = String(someNumber)
 console.log(convertNumberInToString)
 console.log(typeof someNumber)
 console.log(typeof convertNumberInToString)
+
+//*************** operations *********************//
+ 
+let value = 3
+let negValue = -value
+console.log(negValue)
+
+let str1 = "Ritik"
+let str2 = " Gupta"
+
+let str3 = str1 + str2 
+console.log(str3)
+
+console.log(1 + " 2")
+console.log("1" + 2)
+console.log(1 + "2")
+console.log("1" + "2")
+console.log("1" + 2 + 2)
+console.log("1" + (2 + 2))
+console.log(1 + 2 + "2")
+
+
+let gameCounter =100
+gameCounter++;
+console.log(gameCounter);
+//postfix
+let x = 3;
+let y = x++;
+console.log(x)
+console.log(y)
+//prefix
+let a = 3;
+let b = ++a;
+console.log(a)
+console.log(b)
