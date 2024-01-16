@@ -30,6 +30,8 @@ const url = "https://hitesh.com/hitesh%20choudhary"
 
 console.log(url.replace('%20', '-'))
 
-console.log(url.includes('sundar'))
+console.log(url.includes('sundar')) // url main keyword hai ya nahi
+
+console.log(gameName.split("i"));
 
 console.log(gameName.split('-'));
