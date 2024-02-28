@@ -3,12 +3,13 @@ html,body{
     height: 80%;
     width: 100%;
     box-sizing: border-box;
-    background-color: rgb(92, 197, 92);
+    background-color: rgb(222, 230, 221);
 }
 .card{
-    background-color: rgb(41, 224, 41);
+    background-color: white;
     height: 400px;
     width: 300px;
+    border: 2px solid black;
     text-align: center;
     margin-left: 500px;
     margin-top: 30px;
